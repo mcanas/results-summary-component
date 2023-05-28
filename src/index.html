@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="bg-white">
+    <div
+      class="sm:absolute sm:left-2/4 sm:top-2/4 sm:flex sm:max-w-[750px] sm:-translate-x-2/4 sm:-translate-y-2/4 sm:rounded-3xl sm:shadow-2xl sm:shadow-light-lavender/75"
+    >
+      <!-- Result Summary: Result Header -->
+      <div
+        class="rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue px-12 py-8 sm:max-w-[50%] sm:flex-grow sm:rounded-3xl"
+      >
+        <div class="flex flex-col items-center text-center text-light-lavender">
+          <h2>
+            <span class="text-base font-bold sm:text-md">Your Result</span>
+            <span
+              class="my-6 flex h-36 w-36 basis-auto flex-col items-center justify-center rounded-full bg-gradient-to-b from-violet-blue to-persian-blue"
+            >
+              <span class="block text-xl font-extrabold text-white sm:text-2xl"
+                >76</span
+              >
+              <span class="block text-sm sm:text-base">of 100</span>
+            </span>
+            <span class="text-md text-white sm:text-lg">Great</span>
+          </h2>
+          <p class="mt-2 text-sm sm:text-base">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <!-- Result Summary: Result Content -->
+      <div class="p-6 sm:max-w-[50%] sm:flex-grow sm:rounded-r-3xl">
+        <h3 class="mb-6 text-base font-bold sm:text-md">Summary</h3>
+        <ul class="text-sm sm:text-base">
+          <li class="my-4 flex rounded-lg bg-light-red/10 px-4 py-3">
+            <span
+              class="flex-grow bg-icon-reaction bg-left bg-no-repeat pl-8 text-light-red"
+              >Reaction</span
+            >
+            <span class="w-fit font-bold text-gray-400"
+              ><strong class="text-black">80</strong>&nbsp;/&nbsp;100</span
+            >
+          </li>
+          <li class="my-4 flex rounded-lg bg-orangey-yellow/10 px-4 py-3">
+            <span
+              class="flex-grow bg-icon-memory bg-left bg-no-repeat pl-8 text-orangey-yellow"
+              >Memory</span
+            >
+            <span class="w-fit font-bold text-gray-400"
+              ><strong class="text-black">92</strong>&nbsp;/&nbsp;100</span
+            >
+          </li>
+          <li class="my-4 flex rounded-lg bg-green-teal/10 px-4 py-3">
+            <span
+              class="flex-grow bg-icon-verbal bg-left bg-no-repeat pl-8 text-green-teal"
+              >Verbal</span
+            >
+            <span class="w-fit font-bold text-gray-400"
+              ><strong class="text-black">61</strong>&nbsp;/&nbsp;100</span
+            >
+          </li>
+          <li class="my-4 flex rounded-lg bg-cobalt-blue/10 px-4 py-3">
+            <span
+              class="flex-grow bg-icon-visual bg-left bg-no-repeat pl-8 text-cobalt-blue"
+              >Visual</span
+            >
+            <span class="w-fit font-bold text-gray-400"
+              ><strong class="text-black">72</strong>&nbsp;/&nbsp;100</span
+            >
+          </li>
+        </ul>
+        <button
+          class="text-body mt-6 w-full rounded-full bg-dark-gray-blue p-3 font-bold text-white hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue active:bg-light-royal-blue active:bg-none"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+    <div class="m-2 text-center text-xs text-gray-400">
+      Challenge by
+      <a
+        class="hover:underline"
+        href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="hover:underline"
+        href="https://github.com/mcanas/results-summary-component"
+        target="_blank"
+        >Miguel Cañas</a
+      >.
+    </div>
+  </body>
+</html>
